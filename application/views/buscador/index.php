@@ -32,7 +32,7 @@
 							<div class="card-body">
 								<center>
 
-									<h3 class="card-title">Busca por Escuela</h3>
+									<h3 class="card-title">Busca por Escuela test</h3>
 									<div class="line"></div>
 								</center>
 								<div class="input-group mb-3">
