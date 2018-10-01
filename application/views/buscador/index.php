@@ -60,15 +60,14 @@
 									<div class="collapse" id="buscaAvanzada">
 										<div class="card smcard card-body">
 											<div class="form-group">
-												<select class="form-control">
-													<option>Estado</option>
-													<option value="0">Todo México</option>
+												<select id="cve_ent" class="form-control">
+													<option disabled="disabled" selected>Seleccione un estado</option>
+													<!-- <option value="0">Todo México</option> -->
 												</select>
 											</div>
 											<div class="form-group">
-												<select class="form-control">
-													<option>Municipio</option>
-													<option value="0">TODOS</option>
+												<select id="cve_mun" class="form-control">
+													<option disabled="disabled" selected>Seleccione un municipio</option>
 												</select>
 											</div>
 											<div class="form-group">
@@ -116,9 +115,10 @@
 									<div class="input-group-prepend">
 										<label class="input-group-text"><i class="fas fa-map-marker-alt"></i></label>
 									</div>
-									<select class="custom-select">
-										<option selected>Estado</option>
-										<option value="0">Todo México</option>
+									<select id="cve_ent1" class="custom-select">
+										<option disabled="disabled" selected>Seleccione un estado</option>
+										<!-- <option selected>Estado</option>
+										<option value="0">Todo México</option> -->
 									</select>
 								</div>
 								<div class="input-group mb-3">
@@ -146,6 +146,7 @@
 	</div><!-- /container -->
 
 	<script src="<?= base_url('assets/js/jquery-3.3.1.min.js') ?>" crossorigin="anonymous"></script>
+	<script src="<?= base_url('assets/js/buscador/buscador.js') ?>" crossorigin="anonymous"></script>
 	<script src="<?= base_url('assets/js/popper.min.js') ?>" crossorigin="anonymous"></script>
 	<script src="<?= base_url('assets/js/bootstrap.min.js') ?>" crossorigin="anonymous"></script>
 
